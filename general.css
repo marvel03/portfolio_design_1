@@ -125,7 +125,10 @@ a {
     align-items: center;
     flex-direction: row;
     /* background-color: lightpink; */
+    padding-left: 10px;
+    padding-right: 10px;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .button-container {
@@ -142,10 +145,11 @@ a {
     border: none;
     font-size: medium;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .button-container .CV-download-button {
-    background-color: rgb(178, 173, 173);
+    background-color: white;
     border: 2px solid black;
     color: black;
 
