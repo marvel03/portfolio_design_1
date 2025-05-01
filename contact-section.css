@@ -1,0 +1,43 @@
+#contact{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container article img{
+    width: 30px;
+    display: inline;
+    object-fit: contain;
+}
+.contact-header{
+    text-align: center;
+}
+
+.contact-container article p{
+    display: inline;
+}
+
+.contact-container article{
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+.contact-container {
+ margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+
+#contact + nav{
+    margin-top:100px ;
+}
