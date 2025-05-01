@@ -21,9 +21,11 @@
     font-weight: bold;
 }
  .experience-row-wrapper{
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
  }
 .skills-container{

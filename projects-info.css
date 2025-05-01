@@ -22,8 +22,9 @@ color: rgb(84, 84, 84);
     flex-direction: row;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
     /* border: 1px solid  black; */
-    height: 323px;
+
 }
 .projects-row-wrapper > div{
     border-radius:20px;
