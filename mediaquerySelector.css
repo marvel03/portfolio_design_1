@@ -1,0 +1,36 @@
+
+@media (max-width:695px) {
+    .desktop-nav {
+        display: none;
+    }
+    .About-me-container {
+        /* background-color: goldenrod; */
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width:696px) {
+    .mobile-nav {
+        display: none;
+    }
+    .About-me-container { 
+       flex-direction: row;
+    }
+}
+@media (max-width:853px){
+    .projects-row-wrapper{
+        height: 650px;
+        /* background-color: blue; */
+    }
+}
+@media (min-width:854px){
+    .projects-row-wrapper{
+        height: 330px;
+    }
+}
+@media (max-width: 562px){
+    .projects-row-wrapper{
+        height: 1000px;
+    }
+}

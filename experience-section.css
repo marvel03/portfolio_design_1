@@ -1,0 +1,52 @@
+#experience{
+   margin-top: 200px;
+   /* border: 1px solid black; */
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-around; */
+  gap: 10px;
+   padding: 10px;
+}
+.experience-header{
+    align-self: center;
+    text-align: center;
+}
+.experience-header p{
+    font-size: small;
+    color: rgb(84, 84, 84);
+}
+.experience-header h1{
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+}
+ .experience-row-wrapper{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+.skills-container{
+    border: 2px solid black;
+    border-radius: 10px;
+   /* text-align: initial; */
+   width: 20.5rem;
+   padding: 10px 40px;
+}
+.skills-container h2{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.skills-container section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.skills-container article img{
+    width: 20px;
+    object-fit: contain;
+}
